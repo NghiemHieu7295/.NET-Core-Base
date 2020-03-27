@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OMI.API</name>
+    </assembly>
+    <members>
+        <member name="M:OMI.API.Controllers.EmployeesController.Get(System.Int32)">
+            <summary>
+            Get Employee by Id .
+            </summary>
+            <param name="id">Id</param>
+            <returns>The instance of Employee</returns>
+        </member>
+        <member name="M:OMI.API.Controllers.EmployeesController.Search(System.String)">
+            <summary>
+            Search Employees by pattern.
+            </summary>
+            <param name="pattern">Contain string in Name</param>
+            <returns>The instance of Employees</returns>
+        </member>
+    </members>
+</doc>

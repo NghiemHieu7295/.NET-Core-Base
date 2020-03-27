@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Queries\GetEmployees.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Queries\**\*.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.Mapper" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OMI.Entity\OMI.Entity.csproj" />
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="rd /s /q &quot;$(ProjectDir)Queries\&quot;&#xD;&#xA;xcopy &quot;$(SolutionDir)OMI.Database\Queries&quot; &quot;$(ProjectDir)Queries\&quot; /s /i /e /y" />
+  </Target>
+
+</Project>
