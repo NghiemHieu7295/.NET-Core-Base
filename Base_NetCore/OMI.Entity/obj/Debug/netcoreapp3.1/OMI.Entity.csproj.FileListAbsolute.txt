@@ -1,0 +1,12 @@
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\bin\Debug\netcoreapp3.1\OMI.Entity.deps.json
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\bin\Debug\netcoreapp3.1\OMI.Entity.dll
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\bin\Debug\netcoreapp3.1\OMI.Entity.pdb
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\bin\Debug\netcoreapp3.1\OMI.Core.dll
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\bin\Debug\netcoreapp3.1\OMI.Core.pdb
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\obj\Debug\netcoreapp3.1\OMI.Entity.csprojAssemblyReference.cache
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\obj\Debug\netcoreapp3.1\OMI.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\obj\Debug\netcoreapp3.1\OMI.Entity.AssemblyInfoInputs.cache
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\obj\Debug\netcoreapp3.1\OMI.Entity.AssemblyInfo.cs
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\obj\Debug\netcoreapp3.1\OMI.Entity.csproj.CopyComplete
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\obj\Debug\netcoreapp3.1\OMI.Entity.dll
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Entity\obj\Debug\netcoreapp3.1\OMI.Entity.pdb

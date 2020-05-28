@@ -1,0 +1,14 @@
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\bin\Debug\netcoreapp3.1\OMI.DTO.deps.json
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\bin\Debug\netcoreapp3.1\OMI.DTO.dll
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\bin\Debug\netcoreapp3.1\OMI.DTO.pdb
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\bin\Debug\netcoreapp3.1\OMI.Core.dll
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\bin\Debug\netcoreapp3.1\OMI.Entity.dll
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\bin\Debug\netcoreapp3.1\OMI.Entity.pdb
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\bin\Debug\netcoreapp3.1\OMI.Core.pdb
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\obj\Debug\netcoreapp3.1\OMI.DTO.csprojAssemblyReference.cache
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\obj\Debug\netcoreapp3.1\OMI.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\obj\Debug\netcoreapp3.1\OMI.DTO.AssemblyInfoInputs.cache
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\obj\Debug\netcoreapp3.1\OMI.DTO.AssemblyInfo.cs
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\obj\Debug\netcoreapp3.1\OMI.DTO.csproj.CopyComplete
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\obj\Debug\netcoreapp3.1\OMI.DTO.dll
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Models\obj\Debug\netcoreapp3.1\OMI.DTO.pdb

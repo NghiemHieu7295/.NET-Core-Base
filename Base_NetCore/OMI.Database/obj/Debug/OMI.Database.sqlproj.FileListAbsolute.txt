@@ -1,0 +1,6 @@
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Database\bin\Debug\OMI.Database.dacpac
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Database\bin\Debug\OMI.Database.dll
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Database\bin\Debug\OMI.Database.pdb
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Database\obj\Debug\OMI.Database.sqlprojAssemblyReference.cache
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Database\obj\Debug\OMI.Database.dll
+C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.Database\obj\Debug\OMI.Database.pdb

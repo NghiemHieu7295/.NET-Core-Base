@@ -1,0 +1,383 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.BUS\\OMI.BUS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.BUS\\OMI.BUS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.BUS\\OMI.BUS.csproj",
+        "projectName": "OMI.BUS",
+        "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.BUS\\OMI.BUS.csproj",
+        "packagesPath": "C:\\Users\\Ominext\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.BUS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ominext\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Core\\OMI.Core.csproj": {
+                "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Core\\OMI.Core.csproj"
+              },
+              "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.DAL\\OMI.DAL.csproj": {
+                "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.DAL\\OMI.DAL.csproj"
+              },
+              "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Models\\OMI.DTO.csproj": {
+                "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Models\\OMI.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Scrutor.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Core\\OMI.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Core\\OMI.Core.csproj",
+        "projectName": "OMI.Core",
+        "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Core\\OMI.Core.csproj",
+        "packagesPath": "C:\\Users\\Ominext\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ominext\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Dapper.Mapper": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.DAL\\OMI.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.DAL\\OMI.DAL.csproj",
+        "projectName": "OMI.DAL",
+        "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.DAL\\OMI.DAL.csproj",
+        "packagesPath": "C:\\Users\\Ominext\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ominext\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Entity\\OMI.Entity.csproj": {
+                "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Entity\\OMI.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper.Mapper": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Entity\\OMI.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Entity\\OMI.Entity.csproj",
+        "projectName": "OMI.Entity",
+        "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Entity\\OMI.Entity.csproj",
+        "packagesPath": "C:\\Users\\Ominext\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ominext\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Core\\OMI.Core.csproj": {
+                "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Core\\OMI.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Models\\OMI.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Models\\OMI.DTO.csproj",
+        "projectName": "OMI.DTO",
+        "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Models\\OMI.DTO.csproj",
+        "packagesPath": "C:\\Users\\Ominext\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ominext\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Entity\\OMI.Entity.csproj": {
+                "projectPath": "C:\\Users\\Ominext\\Documents\\Hieu\\SourceBaseBU4\\net-core\\Base_NetCore\\OMI.Entity\\OMI.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

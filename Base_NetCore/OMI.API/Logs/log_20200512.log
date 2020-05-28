@@ -1,0 +1,168 @@
+﻿12-05-2020 10:28:05 DEBUG Hosting starting  
+12-05-2020 10:28:06 DEBUG Loaded hosting startup assembly OMI.API  
+12-05-2020 10:28:06  INFO Application started. Press Ctrl+C to shut down.  
+12-05-2020 10:28:06  INFO Hosting environment: Development  
+12-05-2020 10:28:06  INFO Content root path: C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.API  
+12-05-2020 10:28:06 DEBUG Hosting started  
+12-05-2020 10:28:06  INFO Request starting HTTP/2.0 GET https://localhost:44394/swagger/ui/index.html    
+12-05-2020 10:28:06 DEBUG Wildcard detected, all requests with hosts will be allowed.  
+12-05-2020 10:28:06  INFO Sending file. Request path: '/swagger/ui/index.html'. Physical path: 'C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.API\wwwroot\swagger\ui\index.html'  
+12-05-2020 10:28:06  INFO Request finished in 168.1894ms 200 text/html  
+12-05-2020 10:28:06  INFO Request starting HTTP/2.0 GET https://localhost:44394/swagger/ui/swagger-ui.css    
+12-05-2020 10:28:06  INFO Request starting HTTP/2.0 GET https://localhost:44394/swagger/ui/swagger-ui-bundle.js    
+12-05-2020 10:28:06  INFO Request starting HTTP/2.0 GET https://localhost:44394/swagger/ui/swagger-ui-standalone-preset.js    
+12-05-2020 10:28:07  INFO Sending file. Request path: '/swagger/ui/swagger-ui.css'. Physical path: 'C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.API\wwwroot\swagger\ui\swagger-ui.css'  
+12-05-2020 10:28:07  INFO Request finished in 665.9858ms 200 text/css  
+12-05-2020 10:28:07  INFO Sending file. Request path: '/swagger/ui/swagger-ui-standalone-preset.js'. Physical path: 'C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.API\wwwroot\swagger\ui\swagger-ui-standalone-preset.js'  
+12-05-2020 10:28:07  INFO Request finished in 718.33ms 200 application/javascript  
+12-05-2020 10:28:07  INFO Sending file. Request path: '/swagger/ui/swagger-ui-bundle.js'. Physical path: 'C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.API\wwwroot\swagger\ui\swagger-ui-bundle.js'  
+12-05-2020 10:28:07  INFO Request finished in 703.2097ms 200 application/javascript  
+12-05-2020 10:28:07  INFO Request starting HTTP/2.0 GET https://localhost:44394/swagger/v1/swagger.json    
+12-05-2020 10:28:07 DEBUG The request path /swagger/v1/swagger.json does not match an existing file  
+12-05-2020 10:28:07  INFO Request starting HTTP/2.0 GET https://localhost:44394/swagger/ui/favicon-32x32.png    
+12-05-2020 10:28:07  INFO Sending file. Request path: '/swagger/ui/favicon-32x32.png'. Physical path: 'C:\Users\Ominext\Documents\Hieu\SourceBaseBU4\net-core\Base_NetCore\OMI.API\wwwroot\swagger\ui\favicon-32x32.png'  
+12-05-2020 10:28:07  INFO Request finished in 92.0719ms 200 image/png  
+12-05-2020 10:28:07  INFO Request finished in 317.7162ms 200 application/json;charset=utf-8  
+12-05-2020 10:32:53  INFO Request starting HTTP/2.0 POST https://localhost:44394/Employees/Upsert application/json-patch+json 89  
+12-05-2020 10:32:53 DEBUG POST requests are not supported  
+12-05-2020 10:32:53 DEBUG POST requests are not supported  
+12-05-2020 10:32:53 DEBUG 1 candidate(s) found for the request path '/Employees/Upsert'  
+12-05-2020 10:32:53 DEBUG Endpoint 'OMI.API.Controllers.EmployeesController.Upsert (OMI.API)' with route pattern 'Employees/Upsert' is valid for the request path '/Employees/Upsert'  
+12-05-2020 10:32:53 DEBUG Request matched endpoint 'OMI.API.Controllers.EmployeesController.Upsert (OMI.API)'  
+12-05-2020 10:32:53  INFO Executing endpoint 'OMI.API.Controllers.EmployeesController.Upsert (OMI.API)'  
+12-05-2020 10:32:53 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider  
+12-05-2020 10:32:53  INFO Route matched with {action = "Upsert", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upsert(OMI.DTO.Employees.UpsertEmployeeRequest) on controller OMI.API.Controllers.EmployeesController (OMI.API).  
+12-05-2020 10:32:53 DEBUG Execution plan of authorization filters (in the following order): None  
+12-05-2020 10:32:53 DEBUG Execution plan of resource filters (in the following order): None  
+12-05-2020 10:32:53 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)  
+12-05-2020 10:32:53 DEBUG Execution plan of exception filters (in the following order): None  
+12-05-2020 10:32:53 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)  
+12-05-2020 10:32:53 DEBUG Executing controller factory for controller OMI.API.Controllers.EmployeesController (OMI.API)  
+12-05-2020 10:32:53 DEBUG Executed controller factory for controller OMI.API.Controllers.EmployeesController (OMI.API)  
+12-05-2020 10:32:53 DEBUG Attempting to bind parameter 'employee' of type 'OMI.DTO.Employees.UpsertEmployeeRequest' ...  
+12-05-2020 10:32:53 DEBUG Attempting to bind parameter 'employee' of type 'OMI.DTO.Employees.UpsertEmployeeRequest' using the name '' in request data ...  
+12-05-2020 10:32:53 DEBUG Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.  
+12-05-2020 10:32:53 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.  
+12-05-2020 10:32:54 DEBUG Done attempting to bind parameter 'employee' of type 'OMI.DTO.Employees.UpsertEmployeeRequest'.  
+12-05-2020 10:32:54 DEBUG Done attempting to bind parameter 'employee' of type 'OMI.DTO.Employees.UpsertEmployeeRequest'.  
+12-05-2020 10:32:54 DEBUG Attempting to validate the bound parameter 'employee' of type 'OMI.DTO.Employees.UpsertEmployeeRequest' ...  
+12-05-2020 10:32:54 DEBUG Done attempting to validate the bound parameter 'employee' of type 'OMI.DTO.Employees.UpsertEmployeeRequest'.  
+12-05-2020 10:32:54  INFO Executing HttpStatusCodeResult, setting HTTP status code 204  
+12-05-2020 10:32:54  INFO Executed action OMI.API.Controllers.EmployeesController.Upsert (OMI.API) in 1297.351ms  
+12-05-2020 10:32:54  INFO Executed endpoint 'OMI.API.Controllers.EmployeesController.Upsert (OMI.API)'  
+12-05-2020 10:32:54  INFO Request finished in 1533.1174ms 204   
+12-05-2020 10:32:54 DEBUG Connection ID "18302628900129210392" disconnecting.  
+12-05-2020 10:37:28  INFO Request starting HTTP/2.0 GET https://localhost:44394/Employees/Get/1    
+12-05-2020 10:37:28 DEBUG The request path /Employees/Get/1 does not match a supported file type  
+12-05-2020 10:37:28 DEBUG The request path /Employees/Get/1 does not match a supported file type  
+12-05-2020 10:37:28 DEBUG 1 candidate(s) found for the request path '/Employees/Get/1'  
+12-05-2020 10:37:28 DEBUG Endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)' with route pattern 'Employees/Get/{id}' is valid for the request path '/Employees/Get/1'  
+12-05-2020 10:37:28 DEBUG Request matched endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:37:28  INFO Executing endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:37:28  INFO Route matched with {action = "Get", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[OMI.DTO.Employees.GetEmployeeResponse]] Get(Int32) on controller OMI.API.Controllers.EmployeesController (OMI.API).  
+12-05-2020 10:37:28 DEBUG Execution plan of authorization filters (in the following order): None  
+12-05-2020 10:37:28 DEBUG Execution plan of resource filters (in the following order): None  
+12-05-2020 10:37:28 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)  
+12-05-2020 10:37:28 DEBUG Execution plan of exception filters (in the following order): None  
+12-05-2020 10:37:28 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)  
+12-05-2020 10:37:28 DEBUG Executing controller factory for controller OMI.API.Controllers.EmployeesController (OMI.API)  
+12-05-2020 10:37:28 DEBUG Executed controller factory for controller OMI.API.Controllers.EmployeesController (OMI.API)  
+12-05-2020 10:37:28 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...  
+12-05-2020 10:37:28 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...  
+12-05-2020 10:37:28 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:37:28 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:37:28 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...  
+12-05-2020 10:37:28 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:37:28 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter  
+12-05-2020 10:37:28 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.  
+12-05-2020 10:37:28 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)  
+12-05-2020 10:37:28 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.  
+12-05-2020 10:37:28 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.  
+12-05-2020 10:37:28 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.  
+12-05-2020 10:37:28  INFO Executing ObjectResult, writing value of type 'OMI.DTO.Employees.GetEmployeeResponse'.  
+12-05-2020 10:37:28  INFO Executed action OMI.API.Controllers.EmployeesController.Get (OMI.API) in 146.7537ms  
+12-05-2020 10:37:28  INFO Executed endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:37:28  INFO Request finished in 234.4158ms 200 application/json; charset=utf-8  
+12-05-2020 10:37:48  INFO Request starting HTTP/2.0 GET https://localhost:44394/Employees/Get/2    
+12-05-2020 10:37:48 DEBUG The request path /Employees/Get/2 does not match a supported file type  
+12-05-2020 10:37:48 DEBUG The request path /Employees/Get/2 does not match a supported file type  
+12-05-2020 10:37:48 DEBUG 1 candidate(s) found for the request path '/Employees/Get/2'  
+12-05-2020 10:37:48 DEBUG Endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)' with route pattern 'Employees/Get/{id}' is valid for the request path '/Employees/Get/2'  
+12-05-2020 10:37:48 DEBUG Request matched endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:37:48  INFO Executing endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:37:48  INFO Route matched with {action = "Get", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[OMI.DTO.Employees.GetEmployeeResponse]] Get(Int32) on controller OMI.API.Controllers.EmployeesController (OMI.API).  
+12-05-2020 10:37:48 DEBUG Execution plan of authorization filters (in the following order): None  
+12-05-2020 10:37:48 DEBUG Execution plan of resource filters (in the following order): None  
+12-05-2020 10:37:48 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)  
+12-05-2020 10:37:48 DEBUG Execution plan of exception filters (in the following order): None  
+12-05-2020 10:37:48 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)  
+12-05-2020 10:37:48 DEBUG Executing controller factory for controller OMI.API.Controllers.EmployeesController (OMI.API)  
+12-05-2020 10:37:48 DEBUG Executed controller factory for controller OMI.API.Controllers.EmployeesController (OMI.API)  
+12-05-2020 10:37:48 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...  
+12-05-2020 10:37:48 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...  
+12-05-2020 10:37:48 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:37:48 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:37:48 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...  
+12-05-2020 10:37:48 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:37:48 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter  
+12-05-2020 10:37:48 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.  
+12-05-2020 10:37:48 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)  
+12-05-2020 10:37:48 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.  
+12-05-2020 10:37:48 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.  
+12-05-2020 10:37:48 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.  
+12-05-2020 10:37:48  INFO Executing ObjectResult, writing value of type 'OMI.DTO.Employees.GetEmployeeResponse'.  
+12-05-2020 10:37:48  INFO Executed action OMI.API.Controllers.EmployeesController.Get (OMI.API) in 79.0886ms  
+12-05-2020 10:37:48  INFO Executed endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:37:48  INFO Request finished in 210.5231ms 200 application/json; charset=utf-8  
+12-05-2020 10:38:00  INFO Request starting HTTP/2.0 GET https://localhost:44394/Employees/Get/3    
+12-05-2020 10:38:00 DEBUG The request path /Employees/Get/3 does not match a supported file type  
+12-05-2020 10:38:00 DEBUG The request path /Employees/Get/3 does not match a supported file type  
+12-05-2020 10:38:00 DEBUG 1 candidate(s) found for the request path '/Employees/Get/3'  
+12-05-2020 10:38:00 DEBUG Endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)' with route pattern 'Employees/Get/{id}' is valid for the request path '/Employees/Get/3'  
+12-05-2020 10:38:00 DEBUG Request matched endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:38:00  INFO Executing endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:38:00  INFO Route matched with {action = "Get", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[OMI.DTO.Employees.GetEmployeeResponse]] Get(Int32) on controller OMI.API.Controllers.EmployeesController (OMI.API).  
+12-05-2020 10:38:00 DEBUG Execution plan of authorization filters (in the following order): None  
+12-05-2020 10:38:00 DEBUG Execution plan of resource filters (in the following order): None  
+12-05-2020 10:38:00 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)  
+12-05-2020 10:38:00 DEBUG Execution plan of exception filters (in the following order): None  
+12-05-2020 10:38:00 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)  
+12-05-2020 10:38:00 DEBUG Executing controller factory for controller OMI.API.Controllers.EmployeesController (OMI.API)  
+12-05-2020 10:38:00 DEBUG Executed controller factory for controller OMI.API.Controllers.EmployeesController (OMI.API)  
+12-05-2020 10:38:00 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...  
+12-05-2020 10:38:00 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...  
+12-05-2020 10:38:00 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:38:00 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:38:00 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...  
+12-05-2020 10:38:00 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:38:00 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter  
+12-05-2020 10:38:00 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.  
+12-05-2020 10:38:00 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)  
+12-05-2020 10:38:00 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.  
+12-05-2020 10:38:00 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.  
+12-05-2020 10:38:00 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.  
+12-05-2020 10:38:00  INFO Executing ObjectResult, writing value of type 'OMI.DTO.Employees.GetEmployeeResponse'.  
+12-05-2020 10:38:00  INFO Executed action OMI.API.Controllers.EmployeesController.Get (OMI.API) in 62.408ms  
+12-05-2020 10:38:00  INFO Executed endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:38:00  INFO Request finished in 155.188ms 200 application/json; charset=utf-8  
+12-05-2020 10:38:04  INFO Request starting HTTP/2.0 GET https://localhost:44394/Employees/Get/4    
+12-05-2020 10:38:04 DEBUG The request path /Employees/Get/4 does not match a supported file type  
+12-05-2020 10:38:04 DEBUG The request path /Employees/Get/4 does not match a supported file type  
+12-05-2020 10:38:04 DEBUG 1 candidate(s) found for the request path '/Employees/Get/4'  
+12-05-2020 10:38:04 DEBUG Endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)' with route pattern 'Employees/Get/{id}' is valid for the request path '/Employees/Get/4'  
+12-05-2020 10:38:04 DEBUG Request matched endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:38:04  INFO Executing endpoint 'OMI.API.Controllers.EmployeesController.Get (OMI.API)'  
+12-05-2020 10:38:04  INFO Route matched with {action = "Get", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[OMI.DTO.Employees.GetEmployeeResponse]] Get(Int32) on controller OMI.API.Controllers.EmployeesController (OMI.API).  
+12-05-2020 10:38:04 DEBUG Execution plan of authorization filters (in the following order): None  
+12-05-2020 10:38:04 DEBUG Execution plan of resource filters (in the following order): None  
+12-05-2020 10:38:04 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)  
+12-05-2020 10:38:04 DEBUG Execution plan of exception filters (in the following order): None  
+12-05-2020 10:38:04 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)  
+12-05-2020 10:38:04 DEBUG Executing controller factory for controller OMI.API.Controllers.EmployeesController (OMI.API)  
+12-05-2020 10:38:04 DEBUG Executed controller factory for controller OMI.API.Controllers.EmployeesController (OMI.API)  
+12-05-2020 10:38:04 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...  
+12-05-2020 10:38:04 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...  
+12-05-2020 10:38:04 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:38:04 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.  
+12-05-2020 10:38:04 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...  
+12-05-2020 10:38:04 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.  

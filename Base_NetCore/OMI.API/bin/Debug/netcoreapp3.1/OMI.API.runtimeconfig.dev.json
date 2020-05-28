@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Ominext\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Ominext\\.nuget\\packages"
+    ]
+  }
+}
